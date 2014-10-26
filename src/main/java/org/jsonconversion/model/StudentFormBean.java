@@ -1,13 +1,14 @@
 package org.jsonconversion.model;
 
-
+import java.io.Serializable;
 
 /**
  * @author krishnakumar
  * 
  */
-public class StudentFormBean {
+public class StudentFormBean implements Serializable {
 
+	private static final long serialVersionUID = -4256927871832916527L;
 	private String registerNumber;
 	private String name;
 	private int age;
@@ -27,7 +28,7 @@ public class StudentFormBean {
 	public void setName(String name) {
 		this.name = name;
 	}
- 
+
 	public int getAge() {
 		return age;
 	}
@@ -35,7 +36,7 @@ public class StudentFormBean {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
+
 	public StudentFormBean() {
 	}
 
@@ -45,5 +46,4 @@ public class StudentFormBean {
 		this.age = age;
 	}
 
-	
 }
