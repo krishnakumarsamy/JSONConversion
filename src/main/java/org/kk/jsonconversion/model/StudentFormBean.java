@@ -48,4 +48,11 @@ public class StudentFormBean implements Serializable {
 		this.age = age;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder beanValue = new StringBuilder();
+		beanValue.append("Reg No :" + this.getRegisterNumber()).append("Name : " + this.getName())
+				.append("Age :" + this.getAge());
+		return beanValue.toString();
+	}
 }
