@@ -1,8 +1,10 @@
-package org.jsonconversion.model;
+package org.kk.jsonconversion.model;
 
 import java.io.Serializable;
 
 /**
+ * Student model class.
+ * 
  * @author krishnakumar
  * 
  */

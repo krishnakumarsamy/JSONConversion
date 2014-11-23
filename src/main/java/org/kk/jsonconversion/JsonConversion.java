@@ -1,11 +1,11 @@
-package org.jsonconversion;
+package org.kk.jsonconversion;
 
 import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.jsonconversion.model.StudentFormBean;
+import org.kk.jsonconversion.model.StudentFormBean;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
